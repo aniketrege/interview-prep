@@ -1,0 +1,12 @@
+[project]
+name = "interview-prep"
+version = "0.1.0"
+description = "Daily ML research interview practice: PyTorch drills, coding fundamentals, systems."
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["prep"]

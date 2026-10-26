@@ -1,0 +1,994 @@
+{
+ "A_coding/A1.00_session_template.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.01_arrays_hashing_two_pointers.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.02_stacks_queues.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.03_binary_search.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.04_linked_lists.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.05_trees_tries.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.06_heaps_intervals.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.07_graphs.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.08_backtracking.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.09_dynamic_programming.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A1.10_bits_complexity.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A2.01_tensor_ops.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A2.02_stable_softmax.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A2.03_micrograd.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A2.04_custom_autograd_function.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A2.05_manual_backprop.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.01_linear_logistic_regression.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.02_kmeans_knn.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.03_pca_svd.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.04_conv2d_unfold.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.05_iou_nms_ranking_metrics.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.10_attention.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.11_sampling.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.12_beam_search.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.13_kv_cache_decoding.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.14_bpe.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.15_contrastive_losses.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.16_gae_ppo.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.17_rm_dpo_grpo.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/A3.18_speculative_decoding.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.00_session_template.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.2,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.01_arrays_hashing_two_pointers.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.02_stacks_queues.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.03_binary_search.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.04_linked_lists.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.05_trees_tries.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.1,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.06_heaps_intervals.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.1,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.07_graphs.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.2,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.08_backtracking.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.09_dynamic_programming.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A1.10_bits_complexity.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 1.6,
+  "status": "pass"
+ },
+ "A_coding/solutions/A2.01_tensor_ops.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 3.1,
+  "status": "pass"
+ },
+ "A_coding/solutions/A2.02_stable_softmax.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 3.4,
+  "status": "pass"
+ },
+ "A_coding/solutions/A2.03_micrograd.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 70.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A2.04_custom_autograd_function.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 3.3,
+  "status": "pass"
+ },
+ "A_coding/solutions/A2.05_manual_backprop.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 3.0,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.01_linear_logistic_regression.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 7.4,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.02_kmeans_knn.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 6.2,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.03_pca_svd.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.4,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.04_conv2d_unfold.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.1,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.05_iou_nms_ranking_metrics.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 7.6,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.10_attention.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.9,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.11_sampling.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 2.9,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.12_beam_search.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.4,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.13_kv_cache_decoding.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 11.1,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.14_bpe.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 13.9,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.15_contrastive_losses.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 2.9,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.16_gae_ppo.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.6,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.17_rm_dpo_grpo.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 2.9,
+  "status": "pass"
+ },
+ "A_coding/solutions/A3.18_speculative_decoding.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 30.2,
+  "status": "pass"
+ },
+ "G1_systems/G1.01_gpu_roofline.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.02_memory_math_mixed_precision.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.03_flops_mfu.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.04_online_softmax_flashattention.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.05_triton_kernels.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.06_torch_compile_profiling.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.10_collectives.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.11_ddp_from_scratch.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.12_zero_fsdp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.13_tensor_sequence_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.14_pipeline_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.15_context_expert_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.16_parallelism_planning.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.20_inference_serving.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/G1.21_diloco_low_comm.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.01_gpu_roofline.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 16.7,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.02_memory_math_mixed_precision.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 21.1,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.03_flops_mfu.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 14.4,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.04_online_softmax_flashattention.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 5.9,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.05_triton_kernels.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 14.7,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.06_torch_compile_profiling.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 19.7,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.10_collectives.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 34.9,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.11_ddp_from_scratch.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 40.0,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.12_zero_fsdp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 27.6,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.13_tensor_sequence_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 17.7,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.14_pipeline_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 13.1,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.15_context_expert_parallel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 17.1,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.16_parallelism_planning.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 2.7,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.20_inference_serving.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 16.4,
+  "status": "pass"
+ },
+ "G1_systems/solutions/G1.21_diloco_low_comm.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 171.9,
+  "status": "pass"
+ },
+ "P_pytorch/P0.00_skeleton.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.01_moons_mlp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.02_mnist_mlp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.03_housing_regression.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.04_imbalanced_binary.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.05_multilabel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.06_cifar_cnn.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.07_losses_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.08_layers_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.09_metrics_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.10a_bug_hunt.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.10b_bug_hunt.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.11_text_classifier.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.12_vae_mnist.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.13_training_utilities.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.14_hparam_debugging.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/P2.15_contrastive_two_tower.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "template",
+  "seconds": 0,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P0.00_skeleton.ipynb": {
+  "date": "2026-10-26",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 14.0,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.01_moons_mlp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 10.5,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.02_mnist_mlp.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 18.7,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.03_housing_regression.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 20.9,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.04_imbalanced_binary.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 30.6,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.05_multilabel.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 11.9,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.06_cifar_cnn.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 55.9,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.07_losses_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.4,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.08_layers_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 4.4,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.09_metrics_by_hand.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 12.5,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.10a_bug_hunt.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 6.2,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.10b_bug_hunt.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 12.3,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.11_text_classifier.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 22.8,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.12_vae_mnist.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 35.8,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.13_training_utilities.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 9.0,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.14_hparam_debugging.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 14.5,
+  "status": "pass"
+ },
+ "P_pytorch/solutions/P2.15_contrastive_two_tower.ipynb": {
+  "date": "2026-10-22",
+  "detail": "",
+  "env": "torch 2.14.1+cu130, NVIDIA GeForce RTX 3090 x4, python 3.11.4",
+  "kind": "solution",
+  "seconds": 9.3,
+  "status": "pass"
+ }
+}

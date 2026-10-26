@@ -1,0 +1,212 @@
+# Day-by-day version of the guide's 16-week schedule, read by `tools/today.py`.
+#
+# Week 1 starts Monday 2026-10-26. Notebook IDs (P2.1, A3.10, G1.4 ...) are linked and opened automatically;
+# everything else is a guide build without a notebook yet (with a pointer to what to study).
+# Changes vs the guide's table (see README "Is the plan reasonable?"):
+#   - one LeetCode problem a day from week 1 (A1 pattern notebooks weeks 1-7, second pass from week 7)
+#   - attention (A3.10), KV cache (A3.13), sampling (A3.11), RM/DPO/GRPO (A3.17) pulled into weeks 2-3
+#   - one G1 systems lab every Sunday instead of only week 15
+#   - with the start moved to Oct 26, Thanksgiving falls in week 5 and Christmas in week 9, so the guide's
+#     review week (its week 10) is now week 9 and its multimodal week (its week 9) is now week 10
+#
+# Slots: drill (Part P, 45-60 min in weeks 1-6, 20-min speed round after), build (main block, 75-90 min),
+# dsa (25 min: one problem; a pattern notebook takes ~2 slots), project (Saturday, 3 h), lab (Sunday G1, ~2 h),
+# mock (from week 10), note. "speed" = today.py picks the most overdue Part P drill from practice/log.csv.
+# Every day also: 20-30 min theory note + 5 flashcards (practice/notes/week-NN.md) + 10 min spaced review.
+#
+# Edit freely: today.py re-reads this file every run.
+
+start: 2026-10-26
+
+weeks:
+  - week: 1
+    theme: PyTorch skeleton + tensor fluency
+    theory: P1 loss table, MLE view of losses, B1 (probability, KL/entropy)
+    days:
+      mon: {drill: "P2.1", build: "A2.1 (broadcasting / einsum / gather / view vs reshape)", dsa: "A1.0 session template, then your first Arrays & Hashing problem"}
+      tue: {drill: "P2.2", build: "A2.2 (stable softmax + logsumexp)", dsa: "A1.1 pattern notebook (hashing, two pointers)"}
+      wed: {drill: "P2.3", build: "A2.5 manual backprop: Linear, ReLU, softmax+CE sections (LayerNorm/BatchNorm can wait to week 3)", dsa: "continue yesterday's A1.1 copy (sliding window, prefix sums)"}
+      thu: {drill: "P2.7 sections 1-3 and 7 (CE, BCE, MSE, gradients)", build: "P2.8 (nn.Module / nn.Parameter internals by hand)", dsa: "1 problem: Two Pointers (A1_problem_list A1.1)"}
+      fri: {drill: "P2.1 (timed repeat)", build: "A2.4 custom autograd.Function; then write a custom Dataset + DataLoader with a collate_fn from memory", dsa: "1 problem: Sliding Window"}
+      sat: {project: "P0 skeleton from memory, timed, on a new dataset (the P0 notebook lists unseen ones)", note: "redo one due item from progress.py"}
+      sun: {lab: "G1.1", note: "read 1 paper; review the week's flashcards; skim next week"}
+
+  - week: 2
+    theme: Classical ML by hand, metrics, optimization
+    theory: B2 optimization (Adam/AdamW, schedules), B3 metrics and evaluation
+    days:
+      mon: {drill: "P2.4", build: "A3.1 (linear / logistic regression with GD)", dsa: "A1.2 pattern notebook (stacks, monotonic stack, deques)"}
+      tue: {drill: "P2.9", build: "A3.2 (k-means++ and kNN)", dsa: "1 problem: Stack"}
+      wed: {drill: "P2.5", build: "A3.3 (PCA via SVD)", dsa: "A1.3 pattern notebook (binary search)"}
+      thu: {drill: "P2.7 sections 4-6 (KL, label smoothing, focal, Huber)", build: "A3.10 attention / MHA / GQA (pulled forward from week 4: the most-asked ML-coding question)", dsa: "1 problem: Binary Search"}
+      fri: {drill: "P2.2 (timed repeat)", build: "AdamW step by hand vs torch.optim.AdamW (docs algorithm box), warmup + cosine schedule: ../LLMs-from-scratch/appendix-D", dsa: "1 problem: Binary Search"}
+      sat: {project: "Imbalanced-data case study write-up from P2.4 (metrics, thresholds, calibration)", build: "A3.13 KV cache (pulled forward)"}
+      sun: {lab: "G1.2", note: "read 1 paper; plan next week"}
+
+  - week: 3
+    theme: Training mechanics, CNNs, building blocks
+    theory: B4 building blocks (init, BatchNorm vs LayerNorm vs RMSNorm, residuals)
+    days:
+      mon: {drill: "P2.8", build: "A3.4 (conv2d via unfold)", dsa: "A1.4 pattern notebook (linked lists)"}
+      tue: {drill: "P2.10a", build: "A3.11 sampling: temperature, top-k, top-p, min-p (pulled forward)", dsa: "1 problem: Linked List"}
+      wed: {drill: "P2.6", build: "A2.3 (micrograd)", dsa: "A1.5 pattern notebook (trees, tries)"}
+      thu: {drill: "P2.13 (AMP, grad accumulation, clipping: covers the guide's build)", build: "A2.5 remaining sections (LayerNorm/BatchNorm backward); RMSNorm: ../LLMs-from-scratch/ch05/07_gpt_to_llama/converting-gpt-to-llama2.ipynb 1.1; a ResNet basic block from memory", dsa: "1 problem: Trees"}
+      fri: {drill: "P2.3 (timed repeat)", build: "A3.17 reward-model, DPO and GRPO losses (pulled forward)", dsa: "1 problem: Trees"}
+      sat: {project: "CIFAR overfit-then-generalize log: extend P2.6 (overfit 512 images, then add augmentation / weight decay / schedule one at a time, write it up)", note: "redo one due build"}
+      sun: {lab: "G1.4", note: "read 1 paper; plan next week"}
+
+  - week: 4
+    theme: Tokenization + the transformer (C1, C2)
+    theory: C1, C2, parameter and FLOP counting (C_llms/README.md)
+    days:
+      mon: {drill: "P2.11", build: "A3.14 BPE; read ../LLMs-from-scratch/ch02", dsa: "A1.6 pattern notebook (heaps, intervals)"}
+      tue: {drill: "P2.14", build: "A3.10 cold, after reading ../LLMs-from-scratch/ch03", dsa: "1 problem: Heap / Priority Queue"}
+      wed: {drill: "P2.12", build: "../LLMs-from-scratch/ch04 (LayerNorm, GELU FFN, transformer block, GPT model)", dsa: "1 problem: Intervals"}
+      thu: {drill: "P2.10b", build: "RoPE + RMSNorm + SwiGLU: implement RoPE yourself first, then ../LLMs-from-scratch/ch05/07_gpt_to_llama/converting-gpt-to-llama2.ipynb 1.1-1.5", dsa: "A1.7 pattern notebook (graphs)"}
+      fri: {drill: "P2.4 (timed repeat)", build: "../LLMs-from-scratch/ch05 5.1-5.2 (loss, perplexity, training loop)", dsa: "1 problem: Graphs"}
+      sat: {project: "GPT-2-small-style model on a tiny corpus (../LLMs-from-scratch/ch05/01_main-chapter-code/gpt_train.py): loss curves + samples"}
+      sun: {lab: "G1.3 (FLOPs and MFU of the model you trained yesterday)", note: "read 1 paper; plan next week"}
+
+  - week: 5
+    theme: Pretraining + inference (C3, C4); Thanksgiving Thursday
+    theory: C3, C4, scaling laws (Kaplan, Chinchilla)
+    days:
+      mon: {drill: "P2.15", build: "A3.13 KV cache, cold; compare with ../LLMs-from-scratch/ch04/03_kv-cache", dsa: "1 problem: Graphs"}
+      tue: {drill: "P2.9 (timed repeat)", build: "A3.12 (beam search)", dsa: "A1.8 pattern notebook (backtracking)"}
+      wed: {drill: "P2.7 (full set, timed)", build: "A3.18 (speculative decoding acceptance rule)", dsa: "1 problem: Backtracking"}
+      thu: {note: "Thanksgiving: flashcards + one due review only"}
+      fri: {drill: "P2.10a (mixed bug hunt, timed)", build: "MoE layer: router + top-k gating (../LLMs-from-scratch/ch04/07_moe); load-balancing loss in G1.15", dsa: "1 problem: Backtracking"}
+      sat: {project: "Generation benchmark: tokens/s with vs without KV cache on your week-4 GPT (reuse A3.13 code)", drill: "P2.6 (timed repeat)"}
+      sun: {lab: "G1.10", note: "read 1 paper; plan next week"}
+
+  - week: 6
+    theme: SFT + preference tuning (C5, D3); Part P progress-bar check
+    theory: C5, D3 (Bradley-Terry, DPO derivation)
+    days:
+      mon: {drill: "P0 mock #1: 45 min on an unseen dataset, recorded", build: "../LLMs-from-scratch/ch07 7.2-7.6 + Exercise 7.2 (prompt-token masking)", dsa: "A1.9 pattern notebook (dynamic programming)"}
+      tue: {drill: "speed", build: "LoRA: implement the layer yourself, then ../LLMs-from-scratch/appendix-E", dsa: "1 problem: 1-D Dynamic Programming"}
+      wed: {drill: "P0 mock #2 (different dataset)", build: "A3.17 section 2 cold (Bradley-Terry reward model), then ../rlhf-book/code/reward_models", dsa: "1 problem: 1-D Dynamic Programming"}
+      thu: {drill: "speed", build: "A3.17 section 3 cold (DPO), after ../LLMs-from-scratch/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb", dsa: "1 problem: 2-D Dynamic Programming"}
+      fri: {drill: "speed", build: "Progress-bar check: P2.1-P2.4 < 25 min and P2.7-P2.10 < 15 min (python tools/progress.py --part P); redo whatever misses", dsa: "1 problem: Greedy"}
+      sat: {project: "Instruction-tune a small model with LoRA, then DPO (../LLMs-from-scratch/ch07 + ch07/04)"}
+      sun: {lab: "G1.11", note: "read 1 paper; plan next week"}
+
+  - week: 7
+    theme: RL fundamentals (D1, D2); Part P becomes a 20-min speed round
+    theory: D1, D2 derivations (Bellman equations, policy-gradient theorem)
+    days:
+      mon: {drill: "speed", build: "Value + policy iteration on a gridworld (Sutton & Barto ch. 4, http://incompleteideas.net/book/the-book-2nd.html)", dsa: "A1.10 pattern notebook (bits, complexity)"}
+      tue: {drill: "speed", build: "Tabular Q-learning (Sutton & Barto ch. 6)", dsa: "1 problem: Arrays & Hashing (second pass, mediums)"}
+      wed: {drill: "speed", build: "DQN with replay buffer + target network: read CleanRL cleanrl/dqn.py, then rewrite from memory", dsa: "1 problem: Two Pointers"}
+      thu: {drill: "speed", build: "REINFORCE with a baseline (Spinning Up, https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html)", dsa: "1 problem: Arrays & Hashing"}
+      fri: {drill: "speed", build: "A3.16 (GAE + PPO loss, cold)", dsa: "1 problem: Two Pointers"}
+      sat: {project: "CartPole: REINFORCE vs actor-critic (plot returns vs env steps)"}
+      sun: {lab: "G1.12", note: "read 1 paper; plan next week"}
+
+  - week: 8
+    theme: PPO, RLHF, GRPO (D3, D4)
+    theory: D3, D4 (GRPO variants, KL choices, loss aggregation)
+    days:
+      mon: {drill: "speed", build: "PPO end to end on CartPole (CleanRL cleanrl/ppo.py; your A3.16 losses)", dsa: "1 problem: Sliding Window"}
+      tue: {drill: "speed", build: "PPO-RLHF loop with per-token KL on a small LM: start from ../rlhf-book/code/policy_gradients (read, run, modify; don't write from scratch)", dsa: "1 problem: Stack"}
+      wed: {drill: "speed", build: "A3.17 sections 4-6 cold (GRPO), after reasoning-from-scratch ch06 (https://github.com/rasbt/reasoning-from-scratch/tree/a788466/ch06)", dsa: "1 problem: Binary Search"}
+      thu: {drill: "speed", build: "RLOO / REINFORCE++ variants: ../rlhf-book/code/policy_gradients configs + ../rlhf-book/book/chapters/06-policy-gradients.md", dsa: "1 problem: Sliding Window"}
+      fri: {drill: "speed", build: "Reward-hacking demo: give a toy policy a reward with a loophole and watch it find it (../rlhf-book/book/chapters/14-over-optimization.md)", dsa: "1 problem: Binary Search"}
+      sat: {project: "GRPO on GSM8K-style math (reasoning-from-scratch ch06-07 scripts)"}
+      sun: {lab: "G1.6", note: "read 1 paper; plan next week"}
+
+  - week: 9
+    theme: Holiday review week (guide's week 10), 1-1.5 h/day
+    theory: weak spots from progress.py
+    days:
+      mon: {build: "A3.10 (attention from memory, timed 20 min)", dsa: "light review"}
+      tue: {build: "A3.16 (PPO + GAE from memory, timed 20 min)"}
+      wed: {build: "A3.17 (DPO + GRPO from memory, 10 min each)"}
+      thu: {note: "Christmas Eve: off or flashcards"}
+      fri: {note: "Christmas: off"}
+      sat: {drill: "P0 mock run (45 min)", project: "One-pagers for D2-D4 (policy gradients, RLHF/DPO, GRPO family)"}
+      sun: {note: "optional: start G1.5 early; otherwise rest"}
+
+  - week: 10
+    theme: Multimodal models (E1-E3; guide's week 9); mocks start Sundays
+    theory: E1-E3
+    days:
+      mon: {drill: "speed", build: "ViT: patchify, CLS vs mean pooling (reference: timm vision_transformer.py)", dsa: "1 problem: Linked List (second pass)"}
+      tue: {drill: "speed", build: "A3.15 cold (CLIP / SigLIP losses); compare with open_clip's loss.py", dsa: "1 problem: Trees"}
+      wed: {drill: "speed", build: "LLaVA-style projector: frozen ViT + small LM + MLP projector (LLaVA arXiv:2304.08485)", dsa: "1 problem: Trees"}
+      thu: {drill: "speed", build: "Visual instruction data pipeline: image tokens interleaved with text, loss masking", dsa: "1 problem: Linked List"}
+      fri: {note: "New Year's Day: light", build: "Grounding as text: boxes as tokens, referring expressions"}
+      sat: {project: "Tiny VLM: frozen ViT + small LM + projector"}
+      sun: {lab: "G1.5", mock: "Mock #1: ML coding (45 min, someone else picks the question)"}
+
+  - week: 11
+    theme: RL for multimodal and agentic policies (D5, E3)
+    theory: D5, E3
+    days:
+      mon: {drill: "speed", build: "Multi-turn rollouts with tool/environment-token masking", dsa: "1 problem: Tries"}
+      tue: {drill: "speed", build: "A small text or grid environment with a task checker", dsa: "1 problem: Heap / Priority Queue"}
+      wed: {drill: "speed", build: "Turn-level vs trajectory-level rewards and credit assignment", dsa: "1 problem: Intervals"}
+      thu: {drill: "speed", build: "VLM RL with a visual reward (answer + grounding reward)", dsa: "1 problem: Heap / Priority Queue"}
+      fri: {drill: "speed", build: "Rejection-sampling fine-tuning: ../rlhf-book/code/rejection_sampling", dsa: "1 problem: Intervals"}
+      sat: {project: "RL for a toy multimodal agent"}
+      sun: {lab: "G1.13", mock: "Mock #2: RL / post-training domain round"}
+
+  - week: 12
+    theme: Retrieval and embeddings (F1)
+    theory: F1
+    days:
+      mon: {drill: "speed", build: "BM25 from scratch (rank_bm25 as reference)", dsa: "1 problem: Graphs"}
+      tue: {drill: "speed", build: "Dual encoder with in-batch + hard negatives (extend P2.15)", dsa: "1 problem: Graphs"}
+      wed: {drill: "speed", build: "IVF / PQ by hand, then FAISS", dsa: "1 problem: Graphs"}
+      thu: {drill: "speed", build: "Cross-encoder reranker", dsa: "1 problem: Graphs"}
+      fri: {drill: "speed", build: "RAG eval: recall@k, nDCG, MRR (A3.5 metrics) + end-to-end answer accuracy", dsa: "1 problem: Graphs"}
+      sat: {project: "Embedding-search agent with an eval harness"}
+      sun: {lab: "G1.14", mock: "Mock #3: agents / search domain round"}
+
+  - week: 13
+    theme: Agents and search over LLM outputs (F2, F3)
+    theory: F2, F3
+    days:
+      mon: {drill: "speed", build: "ReAct loop with tool calling", dsa: "1 problem: Advanced Graphs (Dijkstra)"}
+      tue: {drill: "speed", build: "Sandboxed terminal agent (read mini-SWE-agent, https://github.com/SWE-agent/mini-swe-agent)", dsa: "1 problem: Backtracking"}
+      wed: {drill: "speed", build: "MCTS with UCT on a toy game", dsa: "1 problem: Advanced Graphs"}
+      thu: {drill: "speed", build: "Best-of-N with a verifier; weighted majority vote", dsa: "1 problem: Backtracking"}
+      fri: {drill: "speed", build: "PRM-guided beam search (reuse A3.12 with a step scorer)", dsa: "1 problem: Advanced Graphs"}
+      sat: {project: "Terminal agent; compare search strategies at equal compute"}
+      sun: {lab: "G1.20", mock: "Mock #4: research deep-dive (45-60 min talk + questions)"}
+
+  - week: 14
+    theme: Compute-adaptive inference (F4, C6)
+    theory: F4, C6
+    days:
+      mon: {drill: "speed", build: "Difficulty probe (predict pass rate from hidden states / self-consistency)", dsa: "1 problem: 1-D Dynamic Programming"}
+      tue: {drill: "speed", build: "Early exit / model cascade with a confidence threshold", dsa: "1 problem: 1-D Dynamic Programming"}
+      wed: {drill: "speed", build: "Budget-aware stopping for thinking / searching", dsa: "1 problem: Greedy"}
+      thu: {drill: "speed", build: "Length-penalized reward in RL", dsa: "1 problem: 1-D Dynamic Programming"}
+      fri: {drill: "speed", build: "Cost accounting: FLOPs vs latency vs dollars, prefill vs decode, prefix caching (numbers from G1.20)", dsa: "1 problem: Greedy"}
+      sat: {project: "Compute-adaptive agent: accuracy-vs-cost curve"}
+      sun: {lab: "G1.15", mock: "Mock #5: ML coding"}
+
+  - week: 15
+    theme: Systems consolidation (G1, from memory)
+    theory: G1 (re-read your weekend lab notes)
+    days:
+      mon: {drill: "speed", build: "G1.4: online softmax + tiled attention from memory (20 min), then G1.16 planning exercises", dsa: "1 problem: 2-D Dynamic Programming"}
+      tue: {drill: "speed", build: "G1.2: estimate memory for training a 7B model, cold (mock checklist)", dsa: "1 problem: 2-D Dynamic Programming"}
+      wed: {drill: "speed", build: "G1.11: a 2-process DDP script from memory", dsa: "1 problem: 2-D Dynamic Programming"}
+      thu: {drill: "speed", build: "G1.12: ZeRO-1 from memory + FSDP read-through", dsa: "1 problem: 2-D Dynamic Programming"}
+      fri: {drill: "speed", build: "G1.5: Triton fused softmax from memory", dsa: "1 problem: 2-D Dynamic Programming"}
+      sat: {project: "Speed up your week-4 GPT with G1.6 tools (profile, bf16, compile, fused attention): tokens/s before and after"}
+      sun: {lab: "G1.21", mock: "Mock #6: RL / post-training domain round"}
+
+  - week: 16
+    theme: Mock loops
+    theory: G2-G4
+    days:
+      mon: {drill: "P0 mock run", build: "Paper deep-dives: 5- and 20-min versions of each of your papers", dsa: "Timed mixed set: 2 mediums in 50 min"}
+      tue: {drill: "speed", build: "Research-design drills (guide G2 prompts)", dsa: "Timed mixed set"}
+      wed: {drill: "speed", build: "Behavioral: 6-8 STAR stories, under 2 min each", dsa: "Timed mixed set"}
+      thu: {drill: "speed", build: "45-60 min research talk run-through", dsa: "Timed mixed set"}
+      fri: {drill: "speed", build: "Mock checklist from the guide: tick every box", dsa: "Timed mixed set"}
+      sat: {project: "Two full mock loops"}
+      sun: {note: "Retro; switch to team-specific prep for booked loops (guide rule 4)"}
